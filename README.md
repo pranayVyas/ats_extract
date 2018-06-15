@@ -11,9 +11,9 @@ Usage steps
       b) STARTTIME - job history with modification date => this date will be extracted
       c) ENDTIME - job history with modification date < this date will be extracted
       d) TRUE/FALSE - true will skip vertices processing and create only 1st 3 csv files. false will skip 1st 3 files and create only vertices csv
-  for e.g. hadoop jar /opt/grid/7/ats_metrics/ats_extract-0.0.1.jar com.hortonworks.ats_extract.Tezcapture INFO 2018-04-01 2018-04-05 true
-  
-  Data can be exported to any db. Structure of the csv files if using mysqldb
+
+for e.g. hadoop jar /opt/grid/7/ats_metrics/ats_extract-0.0.1.jar com.hortonworks.ats_extract.Tezcapture INFO 2018-04-01 2018-04-05 true  
+Data can be exported to any db. Structure of the csv files if using mysqldb
   
 create table app_detail(
 appId VARCHAR(50) NOT NULL PRIMARY KEY UNIQUE KEY,
@@ -53,7 +53,6 @@ hdfsWriteOps BIGINT,
 hdfsCreateOps BIGINT,
 dagDuration BIGINT,
 filesWritten INTEGER)
-
 
 CREATE TABLE vertices_detail(
 vertexName VARCHAR (20),
