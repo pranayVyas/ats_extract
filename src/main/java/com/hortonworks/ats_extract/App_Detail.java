@@ -5,7 +5,7 @@ package com.hortonworks.ats_extract;
  * 
  * @author Pranay Ashok Vyas
  * @version 1.0
- * @see HP Inc.
+ * @see
  * @Copyright © 2018 Hortonworks Inc. All Rights Reserved. This software/code is
  *            licensed to you pursuant to the written agreement between
  *            Hortonworks and your company. If no such written agreement exists,
